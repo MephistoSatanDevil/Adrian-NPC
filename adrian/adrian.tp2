@@ -33,7 +33,7 @@ ALWAYS
 		// Borrowed from Edwin Romance: convert strings to UTF-8 for BGEE/BG2EE
 		// No exception, everything needs to be converted
 		// setup.tra contains in game texts as well as installation texts and need to be converted
-		ACTION_DEFINE_ARRAY rh#noconvert BEGIN END
+		ACTION_DEFINE_ARRAY rh#noconvert BEGIN install END
 		// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
 		ACTION_DEFINE_ARRAY rh#reload BEGIN setup END
 
@@ -65,6 +65,9 @@ LANGUAGE ~Deutsch (Teiluebersetzung fuer SvA, von Belryll)~
          ~german~ 
          ~adrian/translations/german/setup.tra~
 
+LANGUAGE ~Chinese~
+         ~schinese~
+         ~adrian/translations/schinese/setup.tra~
 
 /* ================= *
  *  Adrian for BGII  *
